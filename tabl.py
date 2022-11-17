@@ -2,7 +2,7 @@ import yadisk
 import openpyxl
 from openpyxl import load_workbook
 
-y = yadisk.YaDisk(token="y0_AgAAAABkLI6WAAhdVQAAAADQ0Vq6ANAYpuXzQ4qFGTe1gWFmyBCsmfo")
+y = yadisk.YaDisk(token="y0_AgAAAABkLI6WAAhdVQAAAADUKP-n_QegnmwnQTSiQj9SNN02gziNKW4")
 y.download('/123.xlsx', "123.xlsx")  # cкачивание файла
 wb = openpyxl.load_workbook(filename="123.xlsx")
 wb.active = 0
